@@ -19,11 +19,13 @@
   position: relative;
   width: max-content;
   margin: 0 auto;
+  z-index: 1;
 }
 .header .profession::after {
   content: "";
   position: absolute;
   left: 0%;
+  z-index: -1;
   bottom: -1px;
   height: 2rem;
   width: 104%;
@@ -36,7 +38,10 @@
 }
 
 /* Section Styles */
-.section {
+.section .subTitle{
+  color: var(--secondary-text-clr);
+  font-weight: 300;
+  margin-left: 2rem;
 }
 .section .title {
   font-weight: 700;
@@ -55,6 +60,38 @@
     /* mix-blend-mode: hard-light; */
     opacity: 5%;
     object-fit: cover;
+}
+
+.projectContainer .project{
+  background: #232323;
+}
+
+.professionContainer {
+  font-family: 'Inter',sans-serif;
+}
+.projectContainer h3{
+  color: var(--secondary-text-clr);
+}
+.projectContainer h3 span{
+  color: var(--primary-text-clr);
+}
+.projectContainer p{
+  color: var(--secondary-text-clr);
+}
+.projectContainer .skills p{
+  font-weight: 500;
+  color: var(--white-text-clr);
+}
+
+.project .liveLink{
+  color: var(--primary-text-clr);
+  border: 1px solid var(--primary-text-clr);
+  border-radius: 4px;
+}
+.project .gitLink{
+  color: #455A64;
+  border: 1px solid #455A64;
+  border-radius: 4px;
 }
 @media (max-width: 768px) {
   .header {

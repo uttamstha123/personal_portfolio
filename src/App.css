@@ -8,7 +8,7 @@ html {
 }
 :root {
   /* --primary-clr: #121212; */
-  --dark-black: #030106;
+  --dark-black: #121212;
   --primary-text-clr: #7933CC;
   --white-text-clr: #fffdfa;
   --secondary-text-clr: #AEACAC;
@@ -20,6 +20,11 @@ body{
 
 img{
   max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .fs-xxxl {
@@ -44,6 +49,10 @@ img{
 
 .fs-sm {
   font-size: clamp(1.6rem, 2.4vw, 1.8rem);
+}
+
+.fs-xs{
+  font-size: clamp(1.25rem, 2.4vw, 1.6rem);
 }
 
 .padding-x{
