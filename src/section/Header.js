@@ -21,7 +21,7 @@ const Header = () => {
       </div>
       <div className="col-12 col-md-5 text-end">
         <div className="text-center">
-          <img className="profileImg" src="./profile_img.png" alt="profile picture of me" width={"90%"} />
+          <img className="profileImg" src="./profile_img.png" alt="profile of me" width={"90%"} />
           <h2 className="fs-xl mt-3 profession">Web Developer</h2>
         </div>
       </div>
