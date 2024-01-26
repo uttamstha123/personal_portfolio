@@ -10,10 +10,10 @@ function App() {
         <NavBar />
         <Header/>
       </header>
-      <section className="section padding-y padding-x">
+      <section id="skills" className="section padding-y padding-x">
         <Skills/>
       </section>
-      <section className="section padding-y padding-x">
+      <section id="projects" className="section padding-y padding-x">
         <Projects/>
       </section>
     </>

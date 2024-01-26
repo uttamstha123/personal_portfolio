@@ -26,10 +26,10 @@ const Projects = () => {
               <p>Gsap</p>
             </div>
             <div className="links mt-3">
-              <a href="#" className="fs-xs px-4 py-2 liveLink">
+              <a href="https://uttamstha123.github.io/wepandas-website/" target="_blank" className="fs-xs px-4 py-2 liveLink">
                 Visit Site
               </a>
-              <a href="#" className="ms-5 fs-xs px-4 py-2 gitLink">
+              <a href="https://github.com/uttamstha123/wepandas-website" target="_blank" className="ms-5 fs-xs px-4 py-2 gitLink">
                 View On Github
               </a>
             </div>
@@ -59,10 +59,10 @@ const Projects = () => {
               <p>Gsap</p>
             </div>
             <div className="links mt-3">
-              <a href="#" className="fs-xs px-4 py-2 liveLink">
+              <a href="https://uttamstha123.github.io/gifts/" target="_blank" className="fs-xs px-4 py-2 liveLink">
                 Visit Site
               </a>
-              <a href="#" className="ms-5 fs-xs px-4 py-2 gitLink">
+              <a href="https://github.com/uttamstha123/gifts" target="_blank" className="ms-5 fs-xs px-4 py-2 gitLink">
                 View On Github
               </a>
             </div>
@@ -86,10 +86,10 @@ const Projects = () => {
               <p>Gsap</p>
             </div>
             <div className="links mt-3">
-              <a href="#" className="fs-xs px-4 py-2 liveLink">
+              <a href="https://uttamstha123.github.io/gifts/" target="_blank" className="fs-xs px-4 py-2 liveLink">
                 Visit Site
               </a>
-              <a href="#" className="ms-5 fs-xs px-4 py-2 gitLink">
+              <a href="https://github.com/uttamstha123/gifts" target="_blank" className="ms-5 fs-xs px-4 py-2 gitLink">
                 View On Github
               </a>
             </div>
