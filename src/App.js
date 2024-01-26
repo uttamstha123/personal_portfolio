@@ -1,7 +1,7 @@
 import "./App.css";
 import NavBar from "./layouts/NavBar.js";
 import Header from "./section/Header.js";
-
+import Skills from "./section/Skills.js";
 function App() {
   return (
     <>
@@ -9,6 +9,9 @@ function App() {
         <NavBar />
         <Header/>
       </header>
+      <section className="section padding-y padding-x">
+        <Skills/>
+      </section>
     </>
   );
 }

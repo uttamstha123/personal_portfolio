@@ -35,11 +35,32 @@
   background-blend-mode: lighten;
 }
 
+/* Section Styles */
+.section {
+}
+.section .title {
+  font-weight: 700;
+  background-color: rgba(160,87,254,65%);
+  color: transparent;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.skillsContainer .skillImg{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    /* mix-blend-mode: hard-light; */
+    opacity: 5%;
+    object-fit: cover;
+}
 @media (max-width: 768px) {
-    .header{
-        height: 100%;
-    }
-    .header .profileImg{
-        width: 100%;
-    }
+  .header {
+    height: 100%;
+  }
+  .header .profileImg {
+    width: 100%;
+  }
 }
