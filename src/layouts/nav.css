@@ -1,0 +1,34 @@
+.navbar{
+    font-family: 'Kaushan Script', cursive;
+}
+.navbar .container{
+    max-width: 100%;
+}
+.navTitle{
+    color: var(--white-text-clr);
+}
+.navTitle span{
+    color: var(--primary-text-clr);
+}
+
+.navbar .nav-link{
+    color: var(--white-text-clr);
+    transition: color 180ms ease-in-out;
+}
+
+.navbar .nav-link:active, .navbar .nav-link:visited{
+    color: var(--white-text-clr);
+}
+
+.navbar .nav-link:hover{
+    color: var(--primary-text-clr);
+}
+
+.navbar .primaryCtn{
+    background-color: var(--primary-text-clr);
+    border: none;
+}
+
+.navbar .navbar-toggler{
+    background: var(--white-text-clr);
+}

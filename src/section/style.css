@@ -1,0 +1,45 @@
+.header {
+  height: 90vh;
+  /* font-family: ;font-family: 'Inter', sans-serif; */
+  /* font-family: 'Kaushan Script', cursive; */
+  font-family: "Lato", sans-serif;
+}
+.header .profileName {
+  color: var(--white-text-clr);
+  font-weight: 700;
+  letter-spacing: 1.625px;
+}
+.header .profile_desc {
+  color: var(--secondary-text-clr);
+  font-weight: 400;
+}
+.header .profession {
+  font-family: "Kaushan Script", cursive;
+  color: var(--white-text-clr);
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+}
+.header .profession::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -1px;
+  height: 2rem;
+  width: 104%;
+  background: linear-gradient(
+    90deg,
+    rgba(160, 87, 254, 0.31) 0%,
+    rgba(202, 35, 175, 0.37) 98.54%
+  );
+  background-blend-mode: lighten;
+}
+
+@media (max-width: 768px) {
+    .header{
+        height: 100%;
+    }
+    .header .profileImg{
+        width: 100%;
+    }
+}
