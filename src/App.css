@@ -48,7 +48,7 @@ a{
 }
 
 .fs-sm {
-  font-size: clamp(1.6rem, 2.4vw, 1.8rem);
+  font-size: clamp(1.4rem, 2.4vw, 1.6rem);
 }
 
 .fs-xs{
@@ -68,5 +68,10 @@ a{
 .mainHeader{
   height: 100%;
   background: url('../public/header_bg.png');
+  background-attachment: fixed;
+}
+
+#experience{
+  background: url('../public/experience_bg.png');
   background-attachment: fixed;
 }

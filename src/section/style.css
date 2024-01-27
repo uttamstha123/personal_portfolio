@@ -38,14 +38,14 @@
 }
 
 /* Section Styles */
-.section .subTitle{
+.section .subTitle {
   color: var(--secondary-text-clr);
   font-weight: 300;
   margin-left: 2rem;
 }
 .section .title {
   font-weight: 700;
-  background-color: rgba(160,87,254,65%);
+  background-color: rgba(160, 87, 254, 65%);
   color: transparent;
   text-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
   -webkit-background-clip: text;
@@ -53,45 +53,72 @@
   background-clip: text;
 }
 
-.skillsContainer .skillImg{
-    position: absolute;
-    height: 100%;
-    right: 0;
-    /* mix-blend-mode: hard-light; */
-    opacity: 5%;
-    object-fit: cover;
+.skillsContainer .skillImg {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  /* mix-blend-mode: hard-light; */
+  opacity: 5%;
+  object-fit: cover;
 }
 
-.projectContainer .project{
+.projectContainer .project {
   background: #232323;
 }
 
 .professionContainer {
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
 }
-.projectContainer h3{
+.projectContainer h3 {
   color: var(--secondary-text-clr);
 }
-.projectContainer h3 span{
+.projectContainer h3 span {
   color: var(--primary-text-clr);
 }
-.projectContainer p{
+.projectContainer p {
   color: var(--secondary-text-clr);
 }
-.projectContainer .skills p{
+.projectContainer .skills p {
   font-weight: 500;
   color: var(--white-text-clr);
 }
 
-.project .liveLink{
+.project .liveLink {
   color: var(--primary-text-clr);
   border: 1px solid var(--primary-text-clr);
   border-radius: 4px;
 }
-.project .gitLink{
-  color: #455A64;
-  border: 1px solid #455A64;
+.project .gitLink {
+  color: #455a64;
+  border: 1px solid #455a64;
   border-radius: 4px;
+}
+
+.experienceContainer .details {
+  color: var(--secondary-text-clr);
+}
+.experienceContainer .details h4 {
+  color: var(--white-text-clr);
+}
+
+.experienceContainer .timeline {
+  position: relative;
+  height: 100%;
+}
+.experienceContainer .timeline::after {
+  content: "";
+  position: absolute;
+  height: 105%;
+  width: .6rem;
+  background-color: var(--white-text-clr);
+  top:10%;
+  left: 50%;
+  transform: translateX(-75%);
+  z-index: -1;
+}
+
+.experienceContainer ul{
+  list-style: none;
 }
 @media (max-width: 768px) {
   .header {

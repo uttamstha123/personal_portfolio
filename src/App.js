@@ -3,6 +3,8 @@ import NavBar from "./layouts/NavBar.js";
 import Header from "./section/Header.js";
 import Skills from "./section/Skills.js";
 import Projects from "./section/Projects.js";
+import Experience from "./section/Experience.js";
+
 function App() {
   return (
     <>
@@ -15,6 +17,9 @@ function App() {
       </section>
       <section id="projects" className="section padding-y padding-x">
         <Projects/>
+      </section>
+      <section id="experience" className="section padding-y padding-x">
+        <Experience/>
       </section>
     </>
   );
