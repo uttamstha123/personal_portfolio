@@ -40,11 +40,11 @@ const Projects = () => {
         </div>
         <div className="row mb-5 project d-flex flex-column gap-4 gap-md-0 flex-md-row py-sm-5 px-sm-5 py-4 px-3 rounded-5">
           <div className="projectImage col-md-3 col-12 text-center">
-            <img src="./project1.png" alt="project screenshot" />
+            <img src="./project2.png" alt="project screenshot" />
           </div>
           <div className="projectDesc col-md-9 col-12 ps-md-5">
             <h3 className="fs-lg">
-              <span>02 </span>WePandas DAPP Website
+              <span>02 </span>Gifts - Ecommerce
             </h3>
             <p className="fs-sm col-md-10">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
@@ -56,7 +56,9 @@ const Projects = () => {
               <p>Html</p>
               <p>Css</p>
               <p>Js</p>
-              <p>Gsap</p>
+              <p>React Js</p>
+              <p>Nodejs</p>
+              <p>Mongodb</p>
             </div>
             <div className="links mt-3">
               <a href="https://uttamstha123.github.io/gifts/" rel="noreferrer" target="_blank" className="fs-xs px-4 py-2 liveLink">
