@@ -35,12 +35,12 @@ const Projects = () => {
             </div>
           </div>
           <div className="projectImage col-md-3 col-12 text-center">
-            <img src="./project1.png" alt="project screenshot" />
+            <img src="./project1.webp" alt="project screenshot" />
           </div>
         </div>
         <div className="row mb-5 project d-flex flex-column gap-4 gap-md-0 flex-md-row py-sm-5 px-sm-5 py-4 px-3 rounded-5">
           <div className="projectImage col-md-3 col-12 text-center">
-            <img src="./project2.png" alt="project screenshot" />
+            <img src="./project2.webp" alt="project screenshot" />
           </div>
           <div className="projectDesc col-md-9 col-12 ps-md-5">
             <h3 className="fs-lg">
@@ -97,7 +97,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projectImage col-md-3 col-12 text-center">
-            <img src="./project1.png" alt="project screenshot" />
+            <img src="./project1.webp" alt="project screenshot" />
           </div>
         </div>
       </div>
