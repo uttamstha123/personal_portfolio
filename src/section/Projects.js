@@ -19,13 +19,13 @@ const Projects = () => {
               vitae iusto ex rerum eum aliquam! Nihil necessitatibus molestias
               laudantium, odio fuga perspiciatis, reiciendis,
             </p>
-            <div className="d-flex gap-4 skills fs-sm">
+            <div className="d-flex gap-1 flex-wrap skills fs-sm">
               <p>Html</p>
               <p>Css</p>
               <p>Js</p>
               <p>Gsap</p>
             </div>
-            <div className="links mt-3">
+            <div className="links mt-4">
               <a href="https://uttamstha123.github.io/wepandas-website/" rel="noreferrer" target="_blank" className="fs-xs px-4 py-2 liveLink">
                 Visit Site
               </a>
@@ -52,15 +52,15 @@ const Projects = () => {
               vitae iusto ex rerum eum aliquam! Nihil necessitatibus molestias
               laudantium, odio fuga perspiciatis, reiciendis,
             </p>
-            <div className="d-flex gap-4 skills fs-sm">
+            <div className="d-flex gap-1 flex-wrap skills fs-sm">
               <p>Html</p>
               <p>Css</p>
               <p>Js</p>
-              <p>React Js</p>
+              <p>ReactJs</p>
               <p>Nodejs</p>
               <p>Mongodb</p>
             </div>
-            <div className="links mt-3">
+            <div className="links mt-4">
               <a href="https://uttamstha123.github.io/gifts/" rel="noreferrer" target="_blank" className="fs-xs px-4 py-2 liveLink">
                 Visit Site
               </a>
@@ -81,13 +81,13 @@ const Projects = () => {
               vitae iusto ex rerum eum aliquam! Nihil necessitatibus molestias
               laudantium, odio fuga perspiciatis, reiciendis,
             </p>
-            <div className="d-flex gap-4 skills fs-sm">
+            <div className="d-flex gap-1 flex-wrap skills fs-sm">
               <p>Html</p>
               <p>Css</p>
               <p>Js</p>
               <p>Gsap</p>
             </div>
-            <div className="links mt-3">
+            <div className="links mt-4">
               <a href="https://uttamstha123.github.io/gifts/" rel="noreferrer" target="_blank" className="fs-xs px-4 py-2 liveLink">
                 Visit Site
               </a>

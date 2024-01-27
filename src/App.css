@@ -28,7 +28,7 @@ a{
 }
 
 .fs-xxxl {
-  font-size: clamp(4rem, 4vw, 7rem);
+  font-size: clamp(3.5rem, 5vw, 7rem);
 }
 
 .fs-xxl {
@@ -52,7 +52,7 @@ a{
 }
 
 .fs-xs{
-  font-size: clamp(1.25rem, 2.4vw, 1.6rem);
+  font-size: clamp(1rem, 2.4vw, 1.4rem);
 }
 
 .padding-x{
@@ -74,4 +74,9 @@ a{
 #experience{
   background: url('../public/experience_bg.png');
   background-attachment: fixed;
+}
+#footer{
+  height: 40vh;
+  background: url('../public/footer_bg.png');
+  background-size: cover;
 }

@@ -4,6 +4,7 @@ import Header from "./section/Header.js";
 import Skills from "./section/Skills.js";
 import Projects from "./section/Projects.js";
 import Experience from "./section/Experience.js";
+import Footer from "./layouts/Footer.js";
 
 function App() {
   return (
@@ -18,9 +19,12 @@ function App() {
       <section id="projects" className="section padding-y padding-x">
         <Projects/>
       </section>
-      <section id="experience" className="section padding-y padding-x">
+      <section id="experience" className="section padding-y padding-x mb-sm-5 mb-3">
         <Experience/>
       </section>
+      <footer id="footer" className="section padding-y padding-x">
+        <Footer/>
+      </footer>
     </>
   );
 }

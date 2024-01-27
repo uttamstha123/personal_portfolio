@@ -81,6 +81,8 @@
 .projectContainer .skills p {
   font-weight: 500;
   color: var(--white-text-clr);
+  margin-bottom: 0;
+  margin-right: 1rem;
 }
 
 .project .liveLink {
@@ -109,16 +111,21 @@
   content: "";
   position: absolute;
   height: 105%;
-  width: .6rem;
+  width: 0.6rem;
   background-color: var(--white-text-clr);
-  top:10%;
+  top: 10%;
   left: 50%;
   transform: translateX(-75%);
   z-index: -1;
 }
 
-.experienceContainer ul{
+.experienceContainer ul {
   list-style: none;
+}
+
+.footerContainer h2 {
+  color: var(--white-text-clr);
+  font-weight: 700;
 }
 @media (max-width: 768px) {
   .header {
