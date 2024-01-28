@@ -19,7 +19,8 @@ body{
 }
 
 img{
-  aspect-ratio: attr(width)/attr(height);
+  /* aspect-ratio: attr(width)/attr(height); */
+  max-width: 100%;
 }
 
 a{
