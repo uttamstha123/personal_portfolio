@@ -13,26 +13,26 @@ const Experience = () => {
           <div className="col-lg-1">
             <div className="d-none d-lg-block timeline">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 width="82"
                 height="82"
                 viewBox="0 0 82 82"
                 fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <circle cx="41" cy="41" r="41" fill="#D9D9D9" />
                 <path
-                  d="M82 41C82 33.7012 80.0516 26.5346 76.356 20.2405C72.6604 13.9464 67.3515 8.75296 60.9778 5.19651L41 41H82Z"
+                  d="M82 41C82 33.7011 80.0516 26.5346 76.356 20.2405C72.6603 13.9464 67.3515 8.75296 60.9777 5.19651L41 41H82Z"
                   fill="#3F69FF"
                   fill-opacity="0.8"
                 />
-                <circle cx="41.1603" cy="41.1603" r="23.1203" fill="#A057FE" />
+                <circle cx="41" cy="41.0002" r="23.1203" fill="#BA68C8" />
               </svg>
             </div>
           </div>
           <div className="col-lg-6  ">
             <div className="mt-5 details">
               <h4 className="fs-md">Aezmocorp - Internship</h4>
-              <p className="fs-sm">Jun 2022 - Jul 2023</p>
+              <p className="fs-sm">Jun 2022 - Jul 2022</p>
               <p className="fs-sm m-0">
                 I have worked as a Web Developer in this organisation.
               </p>
@@ -83,19 +83,31 @@ const Experience = () => {
           <div className="col-lg-1 ">
             <div className="d-none d-lg-block timeline">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="82"
+                width="83"
                 height="82"
-                viewBox="0 0 82 82"
+                viewBox="0 0 83 82"
                 fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="41" cy="41" r="41" fill="#D9D9D9" />
+                <circle
+                  cx="41.9998"
+                  cy="41"
+                  r="41"
+                  transform="rotate(-90 41.9998 41)"
+                  fill="#D9D9D9"
+                />
                 <path
-                  d="M82 41C82 33.7012 80.0516 26.5346 76.356 20.2405C72.6604 13.9464 67.3515 8.75296 60.9778 5.19651L41 41H82Z"
+                  d="M39 0C31.7011 0 17.5 6 11 14C6 18.5 0.5 31.5 0.999998 41L41.9998 41L39 0Z"
                   fill="#3F69FF"
                   fill-opacity="0.8"
                 />
-                <circle cx="41.1603" cy="41.1603" r="23.1203" fill="#A057FE" />
+                <circle
+                  cx="41.9998"
+                  cy="40.9998"
+                  r="23.1203"
+                  transform="matrix(0 -1 1 0 1 82.9996)"
+                  fill="#BA68C8"
+                />
               </svg>
             </div>
           </div>
@@ -127,7 +139,7 @@ const Experience = () => {
               <h4 className="fs-md">
                 Med Cab Care Private Limited - Internship
               </h4>
-              <p className="fs-sm">Feb 2023 - May 2023</p>
+              <p className="fs-sm">Feb 2023 - Dec 2023</p>
               <p className="fs-sm m-0">
                 Develop and maintain web applications using Laravel framework.
               </p>
@@ -153,16 +165,20 @@ const Experience = () => {
         <div className="row">
           <div className="col-lg-5  ">
             <div className="mt-5 details text-lg-end">
-              <h4 className="fs-md">Med Cab Care Private Limited - Full-time</h4>
+              <h4 className="fs-md">
+                Med Cab Care Private Limited - Full-time
+              </h4>
               <p className="fs-sm">Dec 2023 - Present</p>
               <p className="fs-sm m-0">
-              Implement best practices in web development, including security measures and data protection.
+                Implement best practices in web development, including security
+                measures and data protection.
               </p>
               <p className="fs-sm m-0">
-              Troubleshoot and debug applications to optimize performance.
+                Troubleshoot and debug applications to optimize performance.
               </p>
               <p className="fs-sm">
-              Stay updated with industry trends and advancements in webdevelopment technologies.
+                Stay updated with industry trends and advancements in
+                webdevelopment technologies.
               </p>
               <p className="fs-sm m-0">Skills : </p>
               <ul className="fs-sm d-none d-lg-block">
@@ -184,19 +200,31 @@ const Experience = () => {
           <div className="col-lg-1 ">
             <div className="d-none d-lg-block">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="82"
+                width="83"
                 height="82"
-                viewBox="0 0 82 82"
+                viewBox="0 0 83 82"
                 fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="41" cy="41" r="41" fill="#D9D9D9" />
+                <circle
+                  cx="41.9998"
+                  cy="41"
+                  r="41"
+                  transform="rotate(-90 41.9998 41)"
+                  fill="#D9D9D9"
+                />
                 <path
-                  d="M82 41C82 33.7012 80.0516 26.5346 76.356 20.2405C72.6604 13.9464 67.3515 8.75296 60.9778 5.19651L41 41H82Z"
+                  d="M39 0C31.7011 0 17.5 6 11 14C6 18.5 0.5 31.5 0.999998 41L41.9998 41L39 0Z"
                   fill="#3F69FF"
                   fill-opacity="0.8"
                 />
-                <circle cx="41.1603" cy="41.1603" r="23.1203" fill="#A057FE" />
+                <circle
+                  cx="41.9998"
+                  cy="40.9998"
+                  r="23.1203"
+                  transform="matrix(0 -1 1 0 1 82.9996)"
+                  fill="#BA68C8"
+                />
               </svg>
             </div>
           </div>
