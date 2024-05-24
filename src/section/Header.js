@@ -17,11 +17,21 @@ const Header = () => {
             find a mix of projects that showcase my love for clean design and
             smooth functionality.
           </p>
+          <div className="btn">
+            <a href="./resume.pdf" download="Resume - Uttam Shrestha">
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
       <div className="col-12 col-md-5 text-end">
         <div className="text-center">
-          <img className="profileImg" src="./profile_img.webp" alt="profile of me" width={"90%"} />
+          <img
+            className="profileImg"
+            src="./profile_img.webp"
+            alt="profile of me"
+            width={"90%"}
+          />
           <h2 className="fs-xl mt-3 profession">Web Developer</h2>
         </div>
       </div>
