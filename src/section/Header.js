@@ -17,8 +17,8 @@ const Header = () => {
             find a mix of projects that showcase my love for clean design and
             smooth functionality.
           </p>
-          <div className="btn">
-            <a href="./resume.pdf" download="Resume - Uttam Shrestha">
+          <div className="fs-sm primaryCtn pe-3 btn btn-primary">
+            <a href="./resume.pdf" className="text-white" download="Resume - Uttam Shrestha">
               Download Resume
             </a>
           </div>
