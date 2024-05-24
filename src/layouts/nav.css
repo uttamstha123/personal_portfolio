@@ -24,11 +24,6 @@
     color: var(--primary-text-clr);
 }
 
-.navbar .primaryCtn{
-    background-color: var(--primary-text-clr);
-    border: none;
-}
-
 .navbar .navbar-toggler{
     background: var(--white-text-clr);
 }

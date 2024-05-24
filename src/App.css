@@ -81,3 +81,8 @@ a{
   background: url('../public/footer_bg.webp');
   background-size: cover;
 }
+
+.primaryCtn{
+  background-color: var(--primary-text-clr);
+  border: none;
+}
