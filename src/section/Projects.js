@@ -61,7 +61,7 @@ const Projects = () => {
               <p>Mongodb</p>
             </div>
             <div className="links mt-4">
-              <a href="https://uttamstha123.github.io/gifts/" rel="noreferrer" target="_blank" className="fs-xs px-4 py-2 liveLink">
+              <a href="https://gifts-ecommerce.onrender.com" rel="noreferrer" target="_blank" className="fs-xs px-4 py-2 liveLink">
                 Visit Site
               </a>
               <a href="https://github.com/uttamstha123/gifts" rel="noreferrer" target="_blank" className="ms-md-5 ms-3 fs-xs px-4 py-2 gitLink">
