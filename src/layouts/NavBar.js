@@ -26,7 +26,7 @@ const NavBar = () => {
               <Nav.Link className="fs-sm" href="#experience">
                 Experience
               </Nav.Link>
-              <Nav.Link href="#footer">
+              <Nav.Link href="mailto:shresthauttam66@gmail.com">
                 <Button className="fs-sm primaryCtn pe-3">Get In Touch</Button>
               </Nav.Link>
             </Nav>

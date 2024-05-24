@@ -86,3 +86,19 @@ a{
   background-color: var(--primary-text-clr);
   border: none;
 }
+.secondaryCtn{
+  background: var(--white-text-clr);
+  color: var(--primary-text-clr);
+  border: none;
+}
+
+.primaryCtn:hover{
+  background: var(--white-text-clr);
+  color: var(--primary-text-clr);
+}
+
+
+.secondaryCtn:hover{
+  color : var(--white-text-clr);
+  background-color: var(--primary-text-clr);
+}
